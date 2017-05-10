@@ -1,0 +1,44 @@
+.page {
+  overflow: hidden;
+  border: 1px solid transparent;
+  .item {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: .2rem;
+    display: block;
+    width: 50%;
+    float: left;
+    font-size: .2rem;
+    &:nth-child(2n){
+      border-right: 1px solid transparent;
+    }
+    .img {
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 140px;
+        height: 140px;
+      }
+    }
+    .name {
+      font-size: .3rem;
+      line-height: .5rem;
+      height: 1rem;
+      overflow: hidden;
+      text-align: center;
+      font-weight: 600;
+    }
+    .price {
+      margin-top: .1rem;
+      font-size: .3rem;
+      line-height: .5rem;
+      height: .5rem;
+      overflow: hidden;
+      color: #ff6c00;
+    }
+    .time {
+      margin-top: .1rem;
+      color: #666;
+    }
+  }
+}

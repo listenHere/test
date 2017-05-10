@@ -1,0 +1,157 @@
+.page {
+  font-size: .3rem;
+
+  .tit {
+    padding: .1rem 0 .1rem .2rem;
+    line-height: .6rem;
+    background: linear-gradient(top, rgb(243, 243, 243), rgb(198, 198, 198) 100%);
+    background: -o-linear-gradient(top, rgb(243, 243, 243), rgb(198, 198, 198) 100%);
+    background: -ms-linear-gradient(top, rgb(243, 243, 243), rgb(198, 198, 198) 100%);
+    background: -moz-linear-gradient(top, rgb(243, 243, 243), rgb(198, 198, 198) 100%);
+    background: -webkit-linear-gradient(top, rgb(243, 243, 243), rgb(198, 198, 198) 100%);
+    .show_filter {
+      float: right;
+      margin-right: .2rem;
+      padding: .1rem .2rem;
+      line-height: .35rem;
+      border-radius: .1rem;
+      border: 1px solid #ccc;
+      background: linear-gradient(top, rgb(250, 250, 250), rgb(230, 230, 230) 100%);
+      background: -o-linear-gradient(top, rgb(250, 250, 250), rgb(230, 230, 230) 100%);
+      background: -ms-linear-gradient(top, rgb(250, 250, 250), rgb(230, 230, 230) 100%);
+      background: -moz-linear-gradient(top, rgb(250, 250, 250), rgb(230, 230, 230) 100%);
+      background: -webkit-linear-gradient(top, rgb(250, 250, 250), rgb(230, 230, 230) 100%);
+    }
+  }
+
+  .product {
+    margin-top: .2rem;
+
+    .pro_tit {
+      font-size: .35rem;
+      line-height: .6rem;
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .pro_img {
+      position: relative;
+      padding: .2rem .2rem .5rem;
+      > img {
+        margin: 0 auto;
+        max-height: 160px;
+        max-width: 160px;
+      }
+      .pro_like {
+        position: absolute;
+        bottom: .4rem;
+        right: .4rem;
+        width: 40px;
+        height: 40px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .pro_nav {
+      .por_list {
+        border-top:1px solid #c14d00;
+        border-bottom: 1px solid #c14d00;
+        li {
+          position: relative;
+          float: left;
+          width: 33.333%;
+          border-left: 1px  solid #c14d00;
+          background: -webkit-gradient(linear,0 0,0 100%,from(#ffd050),to(#ffbb00));
+          background: -moz-linear-gradient(top, #ffd050, #ffbb00);
+          background: -o-linear-gradient(top,#ffd050, #ffbb00);
+          &:last-child {
+            border-right: 1px  solid #c14d00;
+          }
+          &.active {
+            background: -webkit-gradient(linear,0 0,0 100%,from(#ffa632),to(#ff9000));
+            background: -moz-linear-gradient(top, #ffa632, #ff9000);
+            background: -o-linear-gradient(top,#ffa632, #ff9000);
+            i {
+              display: block;
+            }
+          }
+          a {
+            display: block;
+            height: .7rem;
+            line-height: .7rem;
+            color: #fff;
+            text-align: center;
+          }
+          i {
+            display: none;
+            position: absolute;
+            bottom: -.2rem;
+            left: 50%;
+            margin-left: -.1rem;
+            border-top: .1rem solid #ff9000;
+            border-left:  .1rem solid transparent;
+            border-right:  .1rem solid transparent;
+            border-bottom:  .1rem solid transparent;
+          }
+        }
+      }
+
+      table {
+        margin-top: .2rem;
+        tr {
+          line-height: .7rem;
+          img {
+            margin-top: .2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .com_content {
+    border-top: .05rem solid #333;
+    .com_tit {
+      background-color: #e1e1e1;
+      text-align: center;
+      line-height: .7rem;
+      height: .7rem;
+    }
+    .com_info {
+      margin-top: .2rem;
+      padding: .2rem;
+      font-size: .2rem;
+      color: #000;
+      border-bottom: 1px solid #ccc;
+      line-height: .4rem;
+
+      .info_top {
+        div {
+          line-height: .45rem;
+          height: 1rem;
+          color: #555;
+        }
+      }
+    }
+  }
+
+  .to_more {
+    padding: .2rem 0;
+    text-align: center;
+    .read_more {
+      display: block;
+      margin: 0 auto;
+      line-height: .6rem;
+      width: 90%;
+      border: 1px solid #ccc;
+      border-radius: .1rem;
+      background: -webkit-gradient(linear,0 0,0 100%,from(#f1f1f1),to(#d4d4d4));
+      background: -moz-linear-gradient(top, #f1f1f1, #d4d4d4);
+      background: -o-linear-gradient(top,#f1f1f1, #d4d4d4);
+      box-shadow: 0 0 1px #ccc;
+    }
+  }
+}
